@@ -1,0 +1,30 @@
+{
+  "name": "rpg-dice",
+  "version": "0.5.0",
+  "description": "Node module for rolling various types of dice",
+  "main": "rpg-dice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunanoko/rpg-dice.git"
+  },
+  "keywords": [
+    "rpg",
+    "dice",
+    "dnd",
+    "pathfinder",
+    "roller",
+    "roll",
+    "random",
+    "number",
+    "d20"
+  ],
+  "author": "lunanoko",
+  "license": "LGPL-2.1",
+  "bugs": {
+    "url": "https://github.com/lunanoko/rpg-dice/issues"
+  },
+  "homepage": "https://github.com/lunanoko/rpg-dice#readme"
+}
