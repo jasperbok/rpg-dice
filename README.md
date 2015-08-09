@@ -2,6 +2,14 @@
 
 A Node.js module that exposes functionality to simulate dice rolls.
 
+
+## Installation
+
+The module can be installed via NPM:
+
+    npm install rpg-dice
+
+
 ## Usage
 
     // Require the library
