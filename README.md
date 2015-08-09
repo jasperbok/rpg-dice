@@ -4,10 +4,16 @@ A Node.js module that exposes functionality to simulate dice rolls.
 
 ## Usage
 
+    // Require the library
     var dice = require('rpg-dice');
 
-    dice.roll(1, 20);  // Rolls a 1d20
-    // Returns {rolls: [15], result: 15}
+    // Rolling can be done via two syntaxes:
+    dice.roll('1d20');
+    dice.roll(1, 20);
 
-    dice.roll(3, 6); // Rolls 3d6
-    // Returns {rolls:[1, 5, 3], result: 9}
+The `roll()` method returns a result object in the following format:
+
+    {
+      rolls: [18, 14, 2, 9, 11],  // the individual roll results
+      result: 54  // the total result
+    }
