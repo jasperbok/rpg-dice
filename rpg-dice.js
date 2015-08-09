@@ -38,7 +38,8 @@ function rollDice() {
 }
 
 function rollDiceString(str) {
-
+  var parts = str.split('d');
+  return rollDiceParams(parts[0] || 1, parts[1]);
 }
 
 function rollDiceParams(num, sides) {
